@@ -5,7 +5,7 @@ Java-Projects
 
 By: Yusuf Shakeel
 
-Date: 01-May-2014 Thursday
+Date: 01 May 2014 Thursday
 
 [facebook.com/yusufshakeel](https://www.facebook.com/yusufshakeel)
 
