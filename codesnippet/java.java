@@ -7,20 +7,20 @@ class SIZECONPROGRAM
 {
     public static void main(String args[])throws Exception
     {
-        BufferedReader bufferReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferWriter = new BufferedWriter(new OutputStreamWriter(System.out));
-        int testcase = Integer.parseInt(bufferReader.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        int testcase = Integer.parseInt(br.readLine());
         int sumofnumbers = 0;
         while(testcase>0)
         {
-            int number = Integer.parseInt(bufferReader.readLine());
+            int number = Integer.parseInt(br.readLine());
             if(number>=0)
             {
                 sumofnumbers = sumofnumbers + number;
             }
             testcase=testcase-1;
         }
-        bufferWriter.write(sumofnumbers+"\n");
-        bufferWriter.flush();
+        bw.write(sumofnumbers+"\n");
+        bw.flush();
     }
 }
